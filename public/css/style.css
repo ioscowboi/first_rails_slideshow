@@ -1,0 +1,61 @@
+div{
+  width: 400px;
+  height: 200px;
+  max-width: 800px;
+  max-height: 800px;
+  background-color: rgba(0,0,255, .5);
+  border-radius: 12px 12px 12px 12px;
+  margin: auto;
+
+}
+
+div.wrapper{
+  display: flex;
+  display: -moz-flex;
+  display: -o-flex;
+  display: -webkit-flex;
+  -webkit-display: flex;
+  width: 550px;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: space-between;
+  -o-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -webkit-justify-content: space-between;
+  background-color: rgba(0,0,0, .0);
+}
+
+#slide_size{
+  display: none;
+}
+
+h1{
+  text-align: center;
+  margin: auto;
+  color: rgba(50, 25, 150, 1);
+  padding: 25px 0px 25px 0px;
+}
+
+p{
+  text-align: center;
+  margin: auto;
+  color: rgba(255, 255, 255, .85);
+
+}
+
+div.button{
+  width: 50px;
+  height: 195px;
+  max-width: 50px;
+  max-height: 200px;
+  background-color: rgba(0,0,50, .5);
+  border-radius: 12px 12px 12px 12px;
+}
+
+#lefty{
+    float: left;
+}
+
+#righty{
+    float: left;
+}
